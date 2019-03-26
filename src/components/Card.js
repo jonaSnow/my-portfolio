@@ -1,15 +1,17 @@
 import React from "react";
 
-const Card = () => (
-  <div className="demo-card-event mdl-card mdl-shadow--2dp">
+const Card = props => (
+  <div className="mdl-card mdl-shadow--2dp">
     <div className="mdl-card__title mdl-card--expand">
-      <h4>Expensify App</h4><br />
-      <h6>React App used to add, remove or update expenses</h6>
+      <h4>{props.title}</h4>
+    </div>
+    <div className="mdl-card_description">
+      <h6>{props.description}</h6>
     </div>
     <div className="mdl-card__actions mdl-card--border">
       <i className="material-icons">link</i>
       <a
-        href="https://github.com/jonaSnow/expensify-app"
+        href={props.link}
         target="_blank"
         rel="noopener noreferrer"
         className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
@@ -20,5 +22,11 @@ const Card = () => (
     </div>
   </div>
 );
+
+Card.defaultProps = {
+  title: "Card Component",
+  description: "Description for card component",
+  link: "#"
+};
 
 export default Card;

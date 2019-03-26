@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
 import Card from "./components/Card";
+import './styles/styles.scss';
 
 class App extends Component {
   render() {
@@ -14,7 +15,13 @@ class App extends Component {
         </div>
         <main className="mdl-layout__content">
           <section className="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-            <div className="page-content"><Card /></div>
+            <div className="page-content">
+            <Card 
+              title="Expensify App"
+              description="React App used to add, remove or update expenses"
+              link="https://github.com/jonaSnow/expensify-app"
+            />
+            </div>
           </section>
           <section className="mdl-layout__tab-panel" id="fixed-tab-2">
             <div className="page-content">Jona</div>

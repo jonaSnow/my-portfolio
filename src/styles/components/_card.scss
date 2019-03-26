@@ -1,0 +1,16 @@
+.mdl-card--expand {
+  flex-wrap: wrap;
+}
+
+.mdl-card_title,
+.mdl-card--expand,
+.mdl-card_description {
+  padding: 0 16px;
+}
+
+.mdl-card-description {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  padding: 16px;
+}
