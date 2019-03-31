@@ -5,7 +5,6 @@
 .mdl-card {
   margin: 16px;
   flex: 1 0 33%;
-  height: 18rem;
 }
 
 .mdl-card_title,
@@ -24,5 +23,11 @@
 @media (max-width: 700px) {
   .mdl-card {
     flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 329px) {
+  .mdl-card {
+    width: 100%;
   }
 }
