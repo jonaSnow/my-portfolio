@@ -10,10 +10,10 @@ import {
 library.add(faLinkedinIn, faGithub, faInstagram);
 
 const Footer = () => (
-  <footer class="mdl-mini-footer">
-    <div class="mdl-mini-footer__left-section">
-      <div class="mdl-logo">Jonathan Rafael Guzman</div>
-      <ul class="mdl-mini-footer__link-list">
+  <footer className="mdl-mini-footer">
+    <div className="mdl-mini-footer__left-section">
+      <div className="mdl-logo">Jonathan Rafael Guzman</div>
+      <ul className="mdl-mini-footer__link-list">
         <li>
           <a href="https://www.instagram.com/ghostfacejona/?hl=en">
             <FontAwesomeIcon

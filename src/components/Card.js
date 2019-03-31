@@ -18,7 +18,6 @@ const Card = props => (
       >
         Go to Project
       </a>
-      {/* <div className="mdl-layout-spacer" /> */}
     </div>
   </div>
 );
