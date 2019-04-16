@@ -12,9 +12,6 @@ const Header = () => (
       <a href="#fixed-tab-2" className="mdl-layout__tab">
         About
       </a>
-      <a href="#fixed-tab-3" className="mdl-layout__tab">
-        Contact
-      </a>
     </div>
   </header>
 );
