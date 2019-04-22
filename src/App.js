@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
+import Aboutme from "./components/Aboutme";
 import "./styles/styles.scss";
 
 class App extends Component {
@@ -35,7 +36,7 @@ class App extends Component {
             </div>
           </section>
           <section className="mdl-layout__tab-panel" id="fixed-tab-2">
-            <div className="page-content">Jona</div>
+            <Aboutme />
           </section>
         </main>
         <Footer />

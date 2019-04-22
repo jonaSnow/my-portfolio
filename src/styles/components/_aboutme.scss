@@ -1,0 +1,33 @@
+.aboutme__container {
+  display: flex;
+  flex-flow: row;
+  padding-top: 3vh;
+  width: 100vw;
+}
+
+.aboutme__img,
+.aboutme__text {
+  padding: 1vh;
+}
+
+@media (max-width: 500px) {
+  .aboutme__container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1vh;
+    width: 100vw;
+    height: 66vh;
+    overflow-y: hidden;
+  }
+
+  .aboutme__img {
+    padding-right: 1vw;
+    width: 60vmin;
+    height: 35vmax;
+  }
+
+  .aboutme__text {
+    text-align: center;
+    width: 80vw;
+  }
+}
