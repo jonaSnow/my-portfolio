@@ -10,13 +10,18 @@
   padding: 1vh;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .aboutme__container {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 1vh;
     width: 100vw;
     height: 66vh;
+  }
+
+  .aboutme__img,
+  .aboutme__text {
+    padding: 0;
   }
 
   .aboutme__img {
