@@ -1,7 +1,7 @@
 .aboutme__container {
   display: flex;
   flex-flow: row;
-  padding-top: 3vh;
+  padding: 3vh 0;
   width: 100vw;
 }
 
@@ -17,7 +17,6 @@
     padding-top: 1vh;
     width: 100vw;
     height: 66vh;
-    overflow-y: hidden;
   }
 
   .aboutme__img {
