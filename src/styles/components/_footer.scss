@@ -1,0 +1,10 @@
+@media (max-width: 400px) {
+  .mdl-mini-footer {
+    height: 25vmax;
+  }
+}
+
+.mdl-mini-footer, 
+.mdl-mini-footer__link-list {
+  justify-content:  center;
+}

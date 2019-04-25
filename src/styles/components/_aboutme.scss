@@ -31,3 +31,13 @@
     width: 80vw;
   }
 }
+
+@media (min-width: 760px) {
+  .aboutme__container {
+    justify-content: center;
+  }
+
+  .aboutme__text {
+    width: 35vw;
+  }
+}

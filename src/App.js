@@ -30,7 +30,7 @@ class App extends Component {
               />
               <Card
                 title="Team Generator"
-                description="Java programe that uses xlsx or a csv to randomly generate"
+                description="Java programe that uses xlsx or a csv to randomly generate teams"
                 link="https://github.com/jonaSnow/TeamGenerator"
               />
             </div>
