@@ -1,4 +1,18 @@
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
+  height: auto;
+}
+
+.logo-container {
+  width: 150px;
+  height: 150px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container__img {
+  height: 160px;
+  width: 220px;
 }
