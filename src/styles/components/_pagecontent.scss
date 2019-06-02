@@ -12,3 +12,9 @@
 .mdl-layout.is-upgraded .mdl-layout__tab-panel.is-active {
   display: grid;
 }
+
+@media (min-width: 760px) {
+  .mdl-card {
+    margin: 3px 6px;
+  }
+}
