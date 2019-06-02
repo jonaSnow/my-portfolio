@@ -16,12 +16,12 @@ class App extends Component {
               <Card
                 title="Expensify App"
                 description="React App used to add, remove or update expenses"
-                link="https://github.com/jonaSnow/expensify-app"
+                link="http://expensify-jg.s3-website-us-east-1.amazonaws.com"
               />
               <Card
                 title="Indecision App"
                 description="React App used to add, remove or selecting options"
-                link="https://github.com/jonaSnow/indecision-app"
+                link="http://indecision-app-jg.s3-website.us-east-2.amazonaws.com"
               />
               <Card
                 title="The Collective"
