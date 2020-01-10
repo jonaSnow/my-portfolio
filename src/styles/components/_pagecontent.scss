@@ -2,8 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100vw;
 }
 
 .mdl-layout__content {
   display: flex;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab-panel.is-active {
+  display: grid;
+}
+
+@media (min-width: 760px) {
+  .mdl-card {
+    margin: 3px 6px;
+  }
 }

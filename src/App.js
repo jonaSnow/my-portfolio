@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
+import Aboutme from "./components/Aboutme";
 import "./styles/styles.scss";
 
 class App extends Component {
@@ -15,12 +16,12 @@ class App extends Component {
               <Card
                 title="Expensify App"
                 description="React App used to add, remove or update expenses"
-                link="https://github.com/jonaSnow/expensify-app"
+                link="http://expensify-jg.s3-website-us-east-1.amazonaws.com"
               />
               <Card
                 title="Indecision App"
                 description="React App used to add, remove or selecting options"
-                link="https://github.com/jonaSnow/indecision-app"
+                link="http://indecision-app-jg.s3-website.us-east-2.amazonaws.com"
               />
               <Card
                 title="The Collective"
@@ -29,13 +30,13 @@ class App extends Component {
               />
               <Card
                 title="Team Generator"
-                description="Java programe that uses xlsx or a csv to randomly generate"
+                description="Java programe that uses xlsx or a csv to randomly generate teams"
                 link="https://github.com/jonaSnow/TeamGenerator"
               />
             </div>
           </section>
           <section className="mdl-layout__tab-panel" id="fixed-tab-2">
-            <div className="page-content">Jona</div>
+            <Aboutme />
           </section>
         </main>
         <Footer />

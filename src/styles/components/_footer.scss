@@ -1,0 +1,16 @@
+@media (max-width: 400px) {
+  .mdl-mini-footer {
+    height: 25vmax;
+  }
+}
+
+@media (min-width: 900px) {
+  .mdl-mini-footer {
+    padding: 0;
+  }
+}
+
+.mdl-mini-footer, 
+.mdl-mini-footer__link-list {
+  justify-content:  center;
+}
